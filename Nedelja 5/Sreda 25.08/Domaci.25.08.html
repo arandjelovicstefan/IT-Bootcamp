@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Registration Form</title>
+      <link rel="stylesheet" href="Domaci_25.08.css" />
+      <script src="Domaci_25.08.js" defer></script>
+   </head>
+   <body>
+      <header><h2>Registration form</h2></header>
+      <br />
+      <div class="regForma">
+         <label>Name</label><br />
+         <input type="text" id="inpName" placeholder="name" /><br />
+         <p class="errName"></p>
+         <br />
+         <label>Surname</label><br />
+         <input type="text" id="inpSurname" placeholder="surname" /><br />
+         <p class="errSurname"></p>
+         <br />
+         <label>Password</label><br />
+         <input type="password" id="inpPassword" placeholder="password" /><br />
+         <p class="errPassword"></p>
+         <br />
+         <label>Password confirmation</label><br />
+         <input type="password" id="inpPasswordConfirm" placeholder="password" /><br />
+         <p class="errPasswordConfirm"></p>
+         <br />
+         <div class="radioBtn">
+            <label for="gender">Gender</label><br />
+            <label><input name="gender" type="radio" id="radioMale" required />Male</label>
+            <label><input name="gender" type="radio" id="radioFemale" required />Female</label>
+         </div>
+         <p class="errRadio"></p>
+         <br />
+         <select class="citySelect">
+            <option value="0" selected disabled>Select your City</option>
+            <option value="Beograd">Beograd</option>
+            <option value="Novi Sad">Novi Sad</option>
+            <option value="Nis">Nis</option>
+            <option value="Paracin">Paracin</option>
+         </select>
+         <p class="errSelect"></p>
+         <br /><br />
+         <label><input type="checkbox" id="checkHtml" />HTML</label>
+         <label><input type="checkbox" id="checkJavascript" />Javascript</label>
+         <label><input type="checkbox" id="checkCss" />CSS</label>
+         <p class="errCheck"></p>
+      </div>
+      <br />
+      <button class="submitBtn">Register</button>
+      <br />
+      <hr />
+      <br />
+      <div class="regInfo"></div>
+   </body>
+</html>

@@ -1,0 +1,22 @@
+{
+   "products": [
+      {
+         "name": "Iphone",
+         "price": "423",
+         "info": "neki opis",
+         "id": "983274328fkjsdmnfkljsd"
+      },
+      {
+         "name": "Samsung",
+         "price": "243",
+         "info": "neki opis",
+         "id": "9328fk34jsdmnfkljsd"
+      },
+      {
+         "name": "Xiaomi",
+         "price": "123",
+         "info": "neki opis",
+         "id": "74328fkjsdmfsdnfkljsd"
+      }
+   ]
+}

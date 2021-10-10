@@ -1,0 +1,56 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forma {
+  border: 2px solid black;
+  background-color: gray;
+  font-weight: bold;
+}
+
+.input {
+  background-color: sandybrown;
+  width: 60%;
+  text-align: left;
+}
+
+.input:focus {
+  background-color: red;
+}
+
+.text12 {
+  font-style: italic;
+  color: red;
+}
+
+ul li {
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+}
+
+.aside {
+  position: relative;
+  display: inline-block;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+}
+
+.section {
+  position: absolute;
+  display: inline-block;
+  left: 310px;
+  width: 820px;
+  top: 0px;
+}
+
+.div1 {
+  position: relative;
+}
+
+a {
+  padding: 5px;
+}

@@ -1,0 +1,80 @@
+body {
+   text-align: center;
+   text-decoration: none;
+   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   margin: 0;
+}
+.submitBtn {
+   font: inherit;
+   padding: 0.5rem 1rem;
+   background: #f67722;
+   border: 1px solid #f67722;
+   color: white;
+   border-radius: 6px;
+   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+   cursor: pointer;
+}
+
+.submitBtn:hover,
+.submitBtn:active {
+   background: #f3cc4b;
+   border-color: #f3cc4b;
+   color: #995200;
+}
+
+label {
+   font-weight: bold;
+   margin: 0.5rem 0;
+   color: #464646;
+}
+
+p {
+   font-weight: bold;
+   margin: 0.5rem 0;
+   color: #ff0101e0;
+}
+
+input,
+.citySelect {
+   font: inherit;
+   border: 1px solid #ccc;
+   padding: 0.4rem 0.2rem;
+   color: #383838;
+}
+
+input:focus {
+   outline: none;
+   background: #fff1c4;
+}
+header {
+   width: 95%;
+   height: 4rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 2rem;
+   background: #995200;
+   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.26);
+}
+
+header h2 {
+   margin: 0;
+   color: white;
+   font-size: 1.5rem;
+}
+.regInfo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.visualInput {
+   font: inherit;
+   border: 1px solid #383838;
+   background: #383838;
+   color: white;
+   border-radius: 6px;
+   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+   cursor: pointer;
+   width: 50%;
+}
